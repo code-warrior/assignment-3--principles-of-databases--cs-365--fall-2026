@@ -7,5 +7,9 @@
 !_03--phone.sql
 !_04--room.sql
 !_05--program.sql
+!_06--faculty_phone.sql
+!_07--faculty_room.sql
+!_08--faculty_program.sql
+!_09--indexes.sql
 !setup.sql
 !commands.sql
