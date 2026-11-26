@@ -9,3 +9,7 @@
 !_05--program.sql
 !setup.sql
 !commands.sql
+!_06--faculty_phone.sql
+!_07--faculty_room.sql
+!_08--faculty_program.sql
+!er-diagram.png

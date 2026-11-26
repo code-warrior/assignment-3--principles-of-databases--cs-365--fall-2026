@@ -87,3 +87,11 @@ VALUES
 (5808, TRUE),
 (5925, TRUE),
 (5953, TRUE);
+
+-- Add phone extensions listed in the CETA Faculty & Staff Phone List
+-- These extensions were missing from the original phone table
+
+INSERT INTO `phone` (`extension`, `is_active`)
+VALUES
+  (5015, TRUE),  -- Hisham Alnajjar
+  (4764, TRUE);  -- Daniel Horowitz

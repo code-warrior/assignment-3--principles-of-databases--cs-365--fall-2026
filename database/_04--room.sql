@@ -29,7 +29,8 @@ CREATE TABLE IF NOT EXISTS `room` (
   `purpose` VARCHAR(80) NOT NULL,
   `comment` TEXT        DEFAULT NULL,
 
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  INDEX idx_room_building_number (building, number)
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
 
 INSERT INTO `room`
